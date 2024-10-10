@@ -4968,6 +4968,8 @@ GameObject:
   - component: {fileID: 6553569184625584218}
   - component: {fileID: 6553569182581171706}
   - component: {fileID: 4592547403999830528}
+  - component: {fileID: -1997729998112118903}
+  - component: {fileID: 8896193439965064244}
   m_Layer: 0
   m_Name: Dog_Doberman_01
   m_TagString: Untagged
@@ -5057,7 +5059,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb9d8f18016f444afab36755421b9750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 40
+  speed: 15
 --- !u!114 &4592547403999830528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5070,6 +5072,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fcd4d13793ee4ec3815b47c15fa694a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &-1997729998112118903
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6553569184618264414}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.108726144, y: 0.23207174, z: 0.27584}
+  m_Center: {x: -0.0039788657, y: 0.10941982, z: 0.023873387}
+--- !u!54 &8896193439965064244
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6553569184618264414}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &6553569184618266086
 GameObject:
   m_ObjectHideFlags: 0

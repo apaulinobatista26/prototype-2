@@ -430,8 +430,8 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 45
-  orthographic: 0
-  orthographic size: 10
+  orthographic: 1
+  orthographic size: 17.17
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -608,7 +608,6 @@ MonoBehaviour:
   - {fileID: 1225131887871188441, guid: 707d2f3717c044b15b843e25a003abe0, type: 3}
   - {fileID: 5399160495999083492, guid: 5994ce7f9206f4c2ba8a287bb17b6606, type: 3}
   - {fileID: 6553569184618264414, guid: 47cd3973f03a442eda7012995b643eab, type: 3}
-  animalIndex: 0
 --- !u!4 &1947333536
 Transform:
   m_ObjectHideFlags: 0
@@ -640,15 +639,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: f8abbdd178867d2419ba9feb6ff2cba0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.36
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: f8abbdd178867d2419ba9feb6ff2cba0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.06
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: f8abbdd178867d2419ba9feb6ff2cba0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.09
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: f8abbdd178867d2419ba9feb6ff2cba0, type: 3}
       propertyPath: m_LocalRotation.w
